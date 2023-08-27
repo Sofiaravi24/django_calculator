@@ -45,3 +45,96 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'basic_calculator' not found.
 "GET /signout HTTP/1.1" 301 0
 "GET /signout/ HTTP/1.1" 200 2230
 "GET /static/images/login_image.jpg HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2189
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3026
+"GET /signout/ HTTP/1.1" 200 2230
+"GET /static/images/login_image.jpg HTTP/1.1" 304 0
+"GET /signup/ HTTP/1.1" 200 2217
+"POST /signup/ HTTP/1.1" 302 0
+"GET /login/ HTTP/1.1" 200 2230
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2189
+"POST /calculator/basic/ HTTP/1.1" 200 2581
+"POST /calculator/basic/ HTTP/1.1" 200 2593
+"POST /calculator/basic/ HTTP/1.1" 200 2593
+"POST /calculator/basic/ HTTP/1.1" 200 2595
+"GET / HTTP/1.1" 200 2189
+"POST /calculator/advanced/ HTTP/1.1" 200 2508
+"GET / HTTP/1.1" 200 2189
+"POST /calculator/submit-feedback/ HTTP/1.1" 200 1657
+"POST /calculator/submit-feedback/ HTTP/1.1" 302 0
+"GET /calculator/feedback/ HTTP/1.1" 200 1236
+"GET / HTTP/1.1" 200 2189
+"POST /calculator/submit-feedback/ HTTP/1.1" 200 1657
+"POST /calculator/submit-feedback/ HTTP/1.1" 302 0
+"GET /calculator/feedback/ HTTP/1.1" 200 1279
+"GET /calculator/submit-feedback/ HTTP/1.1" 200 1657
+"POST /calculator/submit-feedback/ HTTP/1.1" 302 0
+"GET /calculator/feedback/ HTTP/1.1" 200 1320
+"GET /calculator/submit-feedback/ HTTP/1.1" 200 1657
+"POST /calculator/submit-feedback/ HTTP/1.1" 200 1657
+"POST /calculator/submit-feedback/ HTTP/1.1" 302 0
+"GET /calculator/feedback/ HTTP/1.1" 200 1355
+"GET / HTTP/1.1" 200 2189
+"GET /signout/ HTTP/1.1" 200 2230
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2189
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3026
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3707
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 3881
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5166
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+C:\Users\91730\PycharmProjects\django_calculator\django_calci\accounts\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\91730\PycharmProjects\django_calculator\django_calci\calci\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 6500
+"GET /admin/accounts/ HTTP/1.1" 200 5116
+"GET /admin/accounts/customuser/ HTTP/1.1" 200 9388
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/accounts/customuser/3/change/ HTTP/1.1" 200 17545
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /admin/calci/feedback/ HTTP/1.1" 200 9565
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/calci/feedback/4/change/ HTTP/1.1" 200 9328
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/calci/feedback/4/delete/ HTTP/1.1" 200 7722
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"POST /admin/calci/feedback/4/delete/ HTTP/1.1" 302 0
+"GET /admin/calci/feedback/ HTTP/1.1" 200 9515
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
